@@ -1,0 +1,154 @@
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+li a:hover {
+    background-color: black;
+    color: red;
+}
+
+
+
+nav {
+    background-color: #FFFAE1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    overflow: hidden;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    float: left;
+}
+
+ /****************** Image principale *******************/
+ #imagePrincipale {
+     padding-top: 60px;
+     background: url('media/image-principale.jpg') no-repeat fixed;
+     height: 800px;
+     background-size: cover;
+
+ }
+
+ h1{
+     font-family: 'Dancing Script', cursive;
+     text-align: center;
+     color: rgb(60, 119, 11);
+     font-size: 5em;
+     margin-top: 100px;
+     text-shadow: 1px, 3px, 2px, black;
+ }
+
+ #premierTrait {
+     height: 2px;
+     width: 30%;
+     background-color: #FFFAE1;
+     margin: -3px auto;
+     box-shadow: 1pt 3px 2px black;
+ }
+
+ h3 {
+     text-align: center;
+     color: antiquewhite;
+     font-size: 4em;
+     text-shadow: 1px 3px 2px black;
+
+ }
+
+ /* ****************** Presentation ****************** */
+ #presentation {
+     background-color: #FFFAE1;
+     padding: 10px 0px 100px Opx;
+ }
+
+ #textIntro {
+     padding: 0px 20%;
+ }
+
+ h2 {
+     text-align: center;
+     padding-top: 30px;
+     font-size: 2em;
+     text-transform: uppercase;
+ }
+
+ #presentations {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 30px 10%;
+ }
+
+ h4 {
+    font-family: 'Dancing Script', cursive; 
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+ }
+
+ img {
+     border-radius: 10px;
+     box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+ }
+
+ img:hover {
+     opacity: 0.5;
+     transform: scale(1.1);
+     transition: 0.6s ease-in-out;
+ }
+
+ /* ****************** Tourisme ****************** */
+ #tourisme {
+     height: 1400px;
+     background-color: #F1F2F6;
+     padding: 1px 2%;
+ }
+
+ #tourisme h2 {
+     padding-top: 60px;
+ }
+
+ #usms {
+     background-image: url(media/usms.jpg);
+ }
+ #cnrst {
+    background-image: url(media/cnrst.jpeg);
+}
+#mes {
+    background-image: url(media/mes.jpg);
+}
+#khouribga {
+    background-image: url(media/khouribga.jpg);
+}
+
+
+
+
+
